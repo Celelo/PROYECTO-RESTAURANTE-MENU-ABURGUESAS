@@ -1,13 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LIBRERIA -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="style.css">
     <title>Monster Burger</title>
 </head>
+
 <body>
-    
+    <!-- HEADER -->
+    <header>
+
+        <!-- MENU -->
+        <div class="menu container">
+
+            <img class="logo-1" src="imagenes/logo.svg" alt="imagen de logo de restaurante">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="imagenes/menu.png" alt="menu" class="menu-icono">
+            </label>
+
+            <!-- MENU NAV -->
+            <nav class="navbar">
+
+                <!-- MENU-1 -->
+                <div class="menu-1">
+                    <ul>
+                        <li>
+                            <a href="#">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="#">Productos</a>
+                        </li>
+                    </ul>
+                </div>
+                <img class="logo" src="imagenes/logo.svg" alt="imagen de logo de restaurante">
+
+                <!-- MENU-2 -->
+                <div class="menu-2">
+                    <ul>
+                        <li>
+                            <a href="#">Horario</a>
+                        </li>
+                    </ul>
+
+                    <!-- REDES SOCIALES -->
+                    <div class="socials">
+                        <a href="#">
+                            <div class="social">
+                                <img src="imagenes/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="imagenes/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="imagenes/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+        <!-- INICIO DE MENU CARRUSEL -->
+        <div class="header-contaier container">
+
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+
+                    <!-- AMBURGUESA-1 -->
+                    <div class="swiper-slide">
+                        <div class="slide">
+
+                            <div class="slider-text">
+                                <h1>
+                                    Amburguesa
+                                </h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, obcaecati.
+                                </p>
+
+                                <div class="botones">
+                                    <a class="btn-1" href="#">Comprar</a>
+                                    <a class="btn-1" href="#">Menu</a>
+                                </div>
+
+                            </div>
+
+                            <div class="slider-img">
+                                <img src="imagenes/slider1.png" alt="imagen amburguesa 1">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- AMBURGUESA-2 -->
+                    <div class="swiper-slide">
+                        <div class="slide">
+
+                            <div class="slider-text">
+                                <h1>
+                                    torta
+                                </h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, obcaecati.
+                                </p>
+
+                                <div class="botones">
+                                    <a class="btn-1" href="#">Comprar</a>
+                                    <a class="btn-1" href="#">Menu</a>
+                                </div>
+
+                            </div>
+
+                            <div class="slider-img">
+                                <img src="imagenes/slider2.png" alt="imagen amburguesa 1">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- AMBURGUESA-3 -->
+                    <div class="swiper-slide">
+                        <div class="slide">
+
+                            <div class="slider-text">
+                                <h1>
+                                    Amburguesa
+                                </h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, obcaecati.
+                                </p>
+
+                                <div class="botones">
+                                    <a class="btn-1" href="#">Comprar</a>
+                                    <a class="btn-1" href="#">Menu</a>
+                                </div>
+
+                            </div>
+
+                            <div class="slider-img">
+                                <img src="imagenes/slider3.png" alt="imagen amburguesa 2">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- FLECHAS -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- LIBRERIA -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
     <script src="script.js"></script>
 </body>
+
 </html>
