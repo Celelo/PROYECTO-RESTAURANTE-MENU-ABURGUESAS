@@ -7,6 +7,11 @@
     <!-- LIBRERIA -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
+    <!-- FUENTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <title>Monster Burger</title>
 </head>
@@ -82,9 +87,9 @@
 
                     <!-- AMBURGUESA-1 -->
                     <div class="swiper-slide">
-                        <div class="slide">
+                        <div class="slider">
 
-                            <div class="slider-text">
+                            <div class="slider-txt">
                                 <h1>
                                     Amburguesa
                                 </h1>
@@ -108,9 +113,9 @@
 
                     <!-- AMBURGUESA-2 -->
                     <div class="swiper-slide">
-                        <div class="slide">
+                        <div class="slider">
 
-                            <div class="slider-text">
+                            <div class="slider-txt">
                                 <h1>
                                     torta
                                 </h1>
@@ -134,9 +139,9 @@
 
                     <!-- AMBURGUESA-3 -->
                     <div class="swiper-slide">
-                        <div class="slide">
+                        <div class="slider">
 
-                            <div class="slider-text">
+                            <div class="slider-txt">
                                 <h1>
                                     Amburguesa
                                 </h1>
@@ -170,6 +175,387 @@
 
     </header>
 
+    <!-- MAIN -->
+
+    <main class="products">
+
+        <div class="tabs container">
+
+            <!-- TAB 1 -->
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">Hamburguesa</label>
+
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+
+                        <!-- PRODUCTOS -->
+                    <div class="swiper-wrapper">
+
+                        <!-- PRODUCTO 1 -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food1.png" alt="imagen de menu 1">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$700</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PRODUCTO 2 -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food2.png" alt="imagen de menu 1">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$700</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PRODUCTO 3 -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food3.png" alt="imagen de menu 1">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$700</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+
+                    <!-- CREAR FLECHAS -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+            <!-- TAB 2 -->
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">Burritos</label>
+
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+
+                        <!-- PRODUCTOS -->
+                    <div class="swiper-wrapper">
+
+                        <!-- PRODUCTO 1 -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food4.png" alt="imagen de menu 1">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$700</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PRODUCTO 2 -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food5.png" alt="imagen de menu 1">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$700</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PRODUCTO 3 -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food6.png" alt="imagen de menu 1">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$700</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+
+                    <!-- CREAR FLECHAS -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+            <!-- TAB 3 -->
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3">variedad</label>
+
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+
+                        <!-- PRODUCTOS -->
+                    <div class="swiper-wrapper">
+
+                        <!-- PRODUCTO 1 -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food7.png" alt="imagen de menu 1">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$700</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PRODUCTO 2 -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food8.png" alt="imagen de menu 1">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$700</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PRODUCTO 3 -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/food9.png" alt="imagen de menu 1">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Calidad Premium</p>
+                                    <span class="price">$700</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+
+                    <!-- CREAR FLECHAS -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- INFORMACION -->
+    <section class="info container">
+
+        <div class="info-img">
+            <img src="imagenes/info.png" alt="">
+        </div>
+
+        <div class="info-txt">
+            <h2>Informacion</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quisquam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, doloribus.
+            </p>
+            <a href="#" class="btn-2">Mas informacion</a>
+        </div>
+
+    </section>
+
+    <!-- HORARIOS -->
+    <section class="horario">
+
+        <div class="horario-info container">
+
+            <h2>Horario</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>
+                        Direccion
+                    </h4>
+                    <p>
+                        CABA
+                    </p>
+                    <p>
+                        Avenida 9 de julio
+                    </p>
+                </div>
+
+                <div class="txt">
+                    <h4>
+                        Horario
+                    </h4>
+                    <p>
+                        Lunes a Jueves : 9 am - 12 pm
+                    </p>
+                    <p>
+                        Viernes a sabados : 9 am - 02:30 am
+                    </p>
+                    <p>
+                        Domingos : 9 am - 6 pm
+                    </p>
+                </div>
+
+                <div class="txt">
+                    <h4>
+                        telefono
+                    </h4>
+                    <p>
+                        4819092345
+                    </p>
+                    <p>
+                        1123546790
+                    </p>
+                </div>
+
+                <div class="txt">
+                    <h4>
+                        Redes Sociales
+                    </h4>
+
+                    <div class="socials">
+                        <a href="#">
+                            <div class="social">
+                                <img src="imagenes/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="imagenes/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="imagenes/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- MAPA -->
+    <section>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.874617972123!2d-58.38162519999999!3d-34.6073319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacfdd1fa037%3A0xf1b1f26b0eab3053!2sAv.%209%20de%20Julio%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1695520211125!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <section class="footer container">
+        <img class="logo-2" src="imagenes/logo.svg" alt="">
+
+        <div class="links">
+            <h4>lorem</h4>
+
+            <ul>
+                <li>
+                    <a href="#">lolo</a>
+                    <a href="#">lolo</a>
+                    <a href="#">lolo</a>
+                    <a href="#">lolo</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="links">
+            <h4>lorem</h4>
+
+            <ul>
+                <li>
+                    <a href="#">lolo</a>
+                    <a href="#">lolo</a>
+                    <a href="#">lolo</a>
+                    <a href="#">lolo</a>
+                </li>
+            </ul>
+            
+        </div>
+
+        <div class="links">
+            <h4>lorem</h4>
+
+            <ul>
+                <li>
+                    <a href="#">lolo</a>
+                    <a href="#">lolo</a>
+                    <a href="#">lolo</a>
+                    <a href="#">lolo</a>
+                </li>
+            </ul>
+            
+        </div>
+
+        <div class="links">
+            <h4>Redes Sociales</h4>
+
+            <div class="socials">
+                <a href="#">
+                    <div class="social">
+                        <img src="imagenes/s1.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="imagenes/s2.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="imagenes/s3.svg" alt="">
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+
+    </section>
     <!-- LIBRERIA -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
