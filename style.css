@@ -46,7 +46,7 @@ body {
 
 
 /* MENU */
-.menu{
+.menu {
     position: absolute;
     top: 20px;
     left: 0;
@@ -113,12 +113,13 @@ body {
 }
 
 .menu .navbar ul li a:hover {
-    color:#DB241B;
+    color: #DB241B;
 }
 
 #menu {
     display: none;
 }
+
 .menu-icono {
     width: 25px;
 }
@@ -130,9 +131,9 @@ body {
 
 
 /* HEADER */
-.header-content {
+.header-container {
     margin-top: 200px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .slider {
@@ -150,4 +151,141 @@ body {
     color: white;
     text-transform: uppercase;
     font-weight: 800;
+}
+
+.slider-txt p {
+    font-size: 18px;
+    color: #A7A7A7;
+}
+
+.botones {
+    margin-top: 50px;
+}
+
+.btn-1 {
+    display: inline-block;
+    /*toma solo el espacio del padding que le pongas */
+    padding: 15px 35px;
+    border: 2px solid #DB241B;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+.btn-1:hover {
+    background-color: #DB241B;
+}
+
+.slider-img {
+    width: 50%;
+}
+
+.slider-img img {
+    margin-right: 225px;
+    width: 550px;
+}
+
+/* TABS */
+.products {
+    background-color: #0d0d0d;
+}
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+
+.tabs label {
+    width: 25%;
+    order: 1;
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+    cursor: pointer;
+    color: grey;
+    font-weight: 700;
+    transition: background ease 0.2s;
+}
+
+.tabs .tab {
+    order: 99;
+    flex-wrap: 1;
+    width: 100%;
+    display: none;
+    padding-top: 25px;
+}
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+.tabs input[type="radio"]:checked+label {
+    border-bottom: 2px solid #DB241B;
+    color: white;
+}
+
+/* PRODUCTOS */
+.product {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    margin: 0 10px;
+}
+
+.product-img {
+    width: 50%;
+    text-align: left;
+}
+
+.product-img h4 {
+    display: inline-block;
+    padding: 5px7px;
+    line-height: 15px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: 2px solid #555555;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.product-img img {
+    width: 150px;
+    height: 120px;
+}
+
+product-txt {
+    width: 50%;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.product-txt h4 {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.product-txt p {
+    color: #A7A7A7;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.product-txt span {
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+/* INFORMACION */
+.info {
+    padding: 100px;
 }
