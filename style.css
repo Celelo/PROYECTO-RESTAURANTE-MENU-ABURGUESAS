@@ -223,9 +223,13 @@ body {
     display: none;
 }
 
-.tabs input[type="radio"]:checked+label {
+.tabs input[type="radio"]:checked + label {
     border-bottom: 2px solid #DB241B;
     color: white;
+}
+
+.tabs input[type="radio"]:checked + label + .tab {
+    display: block;
 }
 
 /* PRODUCTOS */
@@ -243,7 +247,7 @@ body {
 
 .product-img h4 {
     display: inline-block;
-    padding: 5px7px;
+    padding: 5px 7px;
     line-height: 15px;
     color: white;
     font-size: 14px;
@@ -431,7 +435,7 @@ product-txt {
         width: 100%;
     }
 
-    #menu:checked ~ .navbar {
+    #menu:checked ~ .navbar { /* activa el menu hamburguesa */
         display: initial;
     }
 
@@ -450,4 +454,118 @@ product-txt {
         text-align: center;
         margin-bottom: 50px;
     }
+
+    .slider-txt h1 {
+        font-size: 50px;
+    }
+
+
+.slider-txt p {
+    font-size: 16px;
+}
+
+/* BOTON */
+.btn-1 {
+    padding: 10px 25px;
+    font-size: 14px;
+}
+
+.slider-img {
+    width: 100%;
+    text-align: center;
+}
+
+.slider-img img {
+    margin-right: 0px;
+    width: 300px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullet,
+.swiper-pagination-bullet,.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: -7px;
+}
+
+/* TABS */
+.tabs {
+    padding: 50px;30px
+}
+.tabs label {
+    width: 33%;
+}
+
+
+/* INFORMACION */
+.info {
+    padding: 30px;
+    flex-direction: column;
+}
+
+.info-img {
+    width: 100%;
+    text-align: center;
+}
+
+.info-img img {
+    width: 400px;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+.info-txt {
+    width: 100%;
+    text-align: center;
+}
+
+.info-txt h2 {
+    font-size: 50px;
+}
+
+.info-txt p {
+    font-size: 16px;
+}
+
+/* BOTON */
+.btn-1 {
+    font-size: 16px;
+}
+
+/* HORARIO */
+.horario {
+    padding: 30px;
+    text-align: center;
+}
+
+.horario-infoh2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.horario-txt {
+    flex-direction: column;
+}
+
+
+/* REDES SOCIALES */
+.socials {
+    justify-content: center;
+}
+
+.social img {
+    margin: 8px 0 0 0;
+}
+
+
+/* FOOTER */ 
+.footer {
+    padding: 30px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.links h4 {
+    margin: 25px 0px 10px 0;
+}
+
 }
