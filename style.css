@@ -234,16 +234,18 @@ body {
 
 /* PRODUCTOS */
 .product {
-    display: flex;
     align-items: center;
     padding: 25px;
     margin: 0 10px;
+    text-align: left;
 }
 
 .product-img {
     width: 50%;
     text-align: left;
 }
+
+
 
 .product-img h4 {
     display: inline-block;
