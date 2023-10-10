@@ -594,11 +594,7 @@ product-txt {
 
 @media(max-width:600px) {
 
-    .product {
-        
-        
-        
-    }
+    
 
     /* .swiper-wrapper {
         flex-direction: column;
@@ -622,7 +618,27 @@ product-txt {
         font-size: 30px;
     }
 
-    .header-container .menu{
+    .header-container {
+        width: 100%;
+    }
+
+    .products {
+        width: 110%;
+    }
+
+    .horario {
+        width: 110%;
+    }
+
+    inframe[width="100%"] {
         width: 200%;
     }
+}
+
+@media(max-width:380px) {
+    .header-container {
+        width: 200%;
+    }
+
+    
 }
