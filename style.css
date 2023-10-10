@@ -260,6 +260,25 @@ body {
     margin-bottom: 50px;
 }
 
+.compra {
+    display: inline-block;
+    padding: 5px 7px;
+    line-height: 15px;
+    color: rgb(197, 179, 179);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: 2px solid #bb1a1a;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.compra:hover {
+    background-color: #bb1a1a;
+    color: white;
+}
+
 .product-img img {
     width: 150px;
     height: 120px;
@@ -491,7 +510,7 @@ product-txt {
 
 /* TABS */
 .tabs {
-    padding: 50px;30px
+    padding: 50px 30px;
 }
 .tabs label {
     width: 33%;
@@ -570,4 +589,40 @@ product-txt {
     margin: 25px 0px 10px 0;
 }
 
+}
+
+
+@media(max-width:600px) {
+
+    .product {
+        
+        
+        
+    }
+
+    /* .swiper-wrapper {
+        flex-direction: column;
+        align-items: center;
+    } */
+
+    .tabs label {
+        font-size: 10px;
+    }
+
+    .info-txt p {
+        margin-left: 60px;
+    }
+
+    .btn-2 {
+        margin-left: 60px;
+
+    }
+
+    .slider-txt h1 {
+        font-size: 30px;
+    }
+
+    .header-container .menu{
+        width: 200%;
+    }
 }

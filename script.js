@@ -41,15 +41,21 @@ var swiper = new Swiper('.mySwiper-3' , {
     }
 });
 
-// TABS
+// TABS DE PRODUCTOS
 
-const tabInputs = $$('.tabInput')
+const arrowMenuHamburger = $('.arrow-next-1')
 
-tabInputs.forEach(function(input) {
+window.addEventListener("DOMContentLoaded", () => {
+    console.log(`El div con class: ${arrow-next-1} si existe`)
+  })
 
-    input.addEventListener('change', function() {
-        let id = input.ariaValueMax ;
-        let thisSwiper = h('swiper' + id);
-        thisSwiper.swiper.update()
-    })
-})
+// const tabInputs = $$('.tabInput')
+
+// tabInputs.forEach(function(input) {
+
+//     input.addEventListener('change', function() {
+//         let id = input.ariaValueMax ;
+//         let thisSwiper = h('swiper' + id);
+//         thisSwiper.swiper.update()
+//     })
+// })
