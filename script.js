@@ -45,9 +45,6 @@ var swiper = new Swiper('.mySwiper-3' , {
 
 const arrowMenuHamburger = $('.arrow-next-1')
 
-window.addEventListener("DOMContentLoaded", () => {
-    console.log(`El div con class: ${arrow-next-1} si existe`)
-  })
 
 // const tabInputs = $$('.tabInput')
 
