@@ -440,6 +440,10 @@ product-txt {
         width: 0;
     }
 
+    .logo {
+        display: none;
+    }
+
     .menu label {
         display: initial;
     }
@@ -625,7 +629,7 @@ product-txt {
     }
 
     .btn-2 {
-        margin-left: 110px;
+        margin-left: 100px;
         padding: 20px 70px;
     }
 
@@ -666,7 +670,7 @@ product-txt {
     }
 
     .footer {
-    width: 150%;
+    width: 140%;
     }
 }
 
