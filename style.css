@@ -596,13 +596,19 @@ product-txt {
 
     
 
-    /* .swiper-wrapper {
+    .my-swiper {
         flex-direction: column;
         align-items: center;
-    } */
+    }
+
+
 
     .tabs label {
         font-size: 10px;
+    }
+
+    .btn-1 {
+        margin-bottom: 8px;
     }
 
     .info-txt p {
@@ -623,7 +629,7 @@ product-txt {
     }
 
     .products {
-        width: 110%;
+        width: 135%;
     }
 
     .horario {
@@ -633,11 +639,24 @@ product-txt {
     inframe[width="100%"] {
         width: 200%;
     }
+
+    .horario {
+        width: 135%;
+    }
+
+
+    .horario-info h2 {
+        font-size: 60px;
+    }
 }
 
 @media(max-width:380px) {
     .header-container {
-        width: 200%;
+        width: 140%;
+    }
+
+    .menu {
+        width: 130%;
     }
 
     
