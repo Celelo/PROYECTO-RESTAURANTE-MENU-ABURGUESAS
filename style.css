@@ -398,6 +398,7 @@ product-txt {
 /* MAPA */
 .map {
     filter: grayscale(100%) invert(92%) contrast(93%); /* oscurece el mapa */
+    width: 100%;
 }
 
 /* FOOTER */
@@ -611,12 +612,16 @@ product-txt {
         margin-bottom: 8px;
     }
 
+    .info {
+        margin-left: 20px;
+    }
+
     .info-txt p {
-        margin-left: 60px;
+        margin-left: 130px;
     }
 
     .btn-2 {
-        margin-left: 60px;
+        margin-left: 110px;
 
     }
 
@@ -629,8 +634,11 @@ product-txt {
     }
 
     .products {
-        width: 135%;
+        width: 140%;
     }
+
+
+    
 
     .horario {
         width: 110%;
@@ -641,12 +649,16 @@ product-txt {
     }
 
     .horario {
-        width: 135%;
+        width: 140%;
     }
 
 
     .horario-info h2 {
         font-size: 60px;
+    }
+
+    .map {
+        width: 140%;
     }
 }
 
