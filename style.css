@@ -620,9 +620,13 @@ product-txt {
         margin-left: 130px;
     }
 
+    .info-txt h2 {
+        margin-left: 20px;
+    }
+
     .btn-2 {
         margin-left: 110px;
-
+        padding: 20px 70px;
     }
 
     .slider-txt h1 {
@@ -659,6 +663,10 @@ product-txt {
 
     .map {
         width: 140%;
+    }
+
+    .footer {
+    width: 150%;
     }
 }
 
